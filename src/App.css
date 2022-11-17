@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-unordered-list {
+  margin: 5px;
+  paddding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3px;
+  color: red;
+  list-style: none;
+  background-color: #E6CBA8
+}
+
+.nav-list {
+  color: green;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  height:90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
